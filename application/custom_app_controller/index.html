@@ -9,19 +9,19 @@
       
       
       
-      <link rel="icon" href="assets/favicon.png">
+      <link rel="icon" href="../../assets/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.5">
     
     
       
-        <title>My Docs</title>
+        <title>CustomAppController - My Docs</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.bde7dde4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bde7dde4.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ef6f36e2.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ef6f36e2.min.css">
         
           
           
@@ -55,7 +55,7 @@
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="deep-purple" data-md-color-accent="">
   
     
-    <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-mkdocs" class="md-skip">
+        <a href="#customappcontroller-class" class="md-skip">
           Skip to content
         </a>
       
@@ -74,7 +74,7 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+    <a href="../.." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Welcome to MkDocs
+              CustomAppController
             
           </span>
         </div>
@@ -159,7 +159,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+    <a href="../.." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
@@ -181,12 +181,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
       
       <label class="md-nav__link" for="__nav_1">
         Application
@@ -202,11 +204,65 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="application/custom_app_controller/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          CustomAppController
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         CustomAppController
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#construtores" class="md-nav__link">
+    Construtores
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#propriedades" class="md-nav__link">
+    Propriedades
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodos" class="md-nav__link">
+    Metodos
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -216,7 +272,7 @@
   
   
     <li class="md-nav__item">
-      <a href="null.md" class="md-nav__link">
+      <a href="../../null.md" class="md-nav__link">
         AppConfig
       </a>
     </li>
@@ -258,7 +314,7 @@
   
   
     <li class="md-nav__item">
-      <a href="auth/introducao.md" class="md-nav__link">
+      <a href="../../auth/introducao.md" class="md-nav__link">
         Introdução
       </a>
     </li>
@@ -297,15 +353,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
+  <a href="#construtores" class="md-nav__link">
+    Construtores
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
+  <a href="#propriedades" class="md-nav__link">
+    Propriedades
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodos" class="md-nav__link">
+    Metodos
   </a>
   
 </li>
@@ -323,21 +386,50 @@
               
                 
                 
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<div class="highlight"><pre><span></span><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+                <!--========================== CABECALHO ==========================-->
+
+<h1 id="customappcontroller-class">CustomAppController class</h1>
+<p>:page_facing_up: <a href="https://github.com/Marcoslima016/flutter_packages/blob/main/projeto-custom_app/custom_app/lib/custom_app/out/app_controller/app.controller.interface.dart#L14"> Source</a></p>
+<p>Classe extendida no controller da aplicação. </p>
+<!--========================= INTRODUCAO =========================-->
+
+<p>Exemplo prático de uma subclasse AppController que extende a classe CustomAppController:
+<div class="highlight"><pre><span></span><code><span class="kd">class</span> <span class="nc">AppController</span> <span class="kd">extends</span> <span class="n">CustomAppController</span> <span class="p">{</span>
+
+  <span class="err">@</span><span class="n">override</span>
+  <span class="n">AppConfig</span> <span class="n">appConfig</span><span class="p">;</span> 
+
+  <span class="err">@</span><span class="n">override</span>
+  <span class="n">AuthPreferences</span> <span class="n">authPreferences</span> <span class="o">=</span> <span class="n">AuthPreferences</span><span class="p">(</span><span class="nl">privateRoute:</span> <span class="s2">&quot;/teste&quot;</span><span class="p">);</span>
+
+  <span class="n">AppStartConfig</span> <span class="n">appStartConfig</span><span class="p">;</span>
+
+  <span class="kd">static</span> <span class="kd">final</span> <span class="n">AppController</span> <span class="n">instance</span> <span class="o">=</span> <span class="n">AppController</span><span class="p">.</span><span class="n">_</span><span class="p">();</span>
+
+  <span class="n">AppController</span><span class="p">.</span><span class="n">_</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">appStartConfig</span> <span class="o">=</span> <span class="n">AppStartConfig</span><span class="p">(</span><span class="nl">appSession:</span> <span class="n">appSession</span><span class="p">);</span>
+
+    <span class="n">appConfig</span> <span class="o">=</span> <span class="n">AppConfig</span><span class="p">(</span>
+      <span class="nl">setInitialRoute:</span> <span class="n">appStartConfig</span><span class="p">.</span><span class="n">initialRoute</span><span class="p">,</span>
+    <span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></p>
+<p><strong>Inheritance</strong></p>
+<p><strong>Implementations</strong>
+CustomAppControllerRequireds</p>
+<p><strong>Implementers</strong></p>
+<!--========================= CONSTRUTORES =========================-->
+<h2 id="construtores">Construtores</h2>
+<p>CustomAppController({}); </p>
+<!--========================= PROPRIEDADES =========================-->
+
+<h2 id="propriedades">Propriedades</h2>
+<p>appConfig -&gt; AppConfig</p>
+<p>authPrefernes -&gt; AuthPreferences</p>
+<!--=========================== METODOS ===========================-->
+
+<h2 id="metodos">Metodos</h2>
                 
               
               
@@ -373,10 +465,10 @@ docs/
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": ".", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "assets/javascripts/workers/search.d351de03.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.d351de03.min.js", "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.a1609d9a.min.js"></script>
+      <script src="../../assets/javascripts/bundle.a1609d9a.min.js"></script>
       
     
   </body>
